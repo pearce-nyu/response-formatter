@@ -26,7 +26,7 @@ Input data for the anonimized id should include the following columns (participa
 2. participant
 
 To use the algorithm modify variables in the main method
-1. Each of the first five variables (IdFile, PreTestAFile, PreTestBFile, PostTestAFile, and PostTestBFile) must take in string with the name representation of the cooresponding input file (ex: "F24_320H_PreTestA.xlsx"). The IdFile currently takes in csv files, but you can modify it to take in spreadsheets in the cooresponding part of the merge algorithm.
+1. Each of the first five variables (IdFile, PreTestAFile, PreTestBFile, PostTestAFile, and PostTestBFile) must take in string with the name representation of the cooresponding input file (ex: "F24_320H_PreTestA.xlsx"). The IdFile currently takes in csv files, but you can modify it to take in spreadsheets in line 53 of the tokenization file.
 2. Each of the next three variables (GroupACompleteData, GroupBCompleteData, and IncompleteData) represent the output files of the merged data. Change the string to represent the desired output file name.
 3. The final three variables (GroupACompleteData_SentencesFinal, GroupBCompleteData_SentencesFile, and IncompleteData_SentencesFile) represent the output files of the tokenized data. Change the string to represent the desired output file name.
 
