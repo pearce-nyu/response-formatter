@@ -1,4 +1,4 @@
-#PEaRCE Project - Sentence Tokenezation Algorithm
+# PEaRCE Project - Sentence Tokenezation Algorithm
 
 This algorithm takes in the pretest and posttest spreadsheets for each group, along with a spreadsheet or csv data containing the student id and cooresponding anonoimized id. It then converts it into
 
